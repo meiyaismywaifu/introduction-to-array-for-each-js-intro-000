@@ -4,6 +4,8 @@ function doToElementsInArray(array, callFunction){
 }
 
 // Add your changeCompletely() function here:
-function changeCompletely(array, callFunction){
-
+function changeCompletely(array){
+  array.forEach(change =>{
+    array[index] = 0;
+  });
 }

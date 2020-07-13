@@ -5,5 +5,5 @@ function doToElementsInArray(array, callFunction){
 
 // Add your changeCompletely() function here:
 function changeCompletely(element, index, array){ // these are givens in array.forEach.
-  array[index] = 0;
+  array[index] = 0; // all work consisted of visualizing what's being passed where.
 }

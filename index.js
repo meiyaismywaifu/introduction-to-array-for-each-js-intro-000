@@ -4,6 +4,6 @@ function doToElementsInArray(array, callFunction){
 }
 
 // Add your changeCompletely() function here:
-function changeCompletely(element, index, array){ // these exist for .forEach.
-  console.log("test");
+function changeCompletely(element, index, array){ // these are givens in array.forEach.
+  array[index] = 0;
 }
